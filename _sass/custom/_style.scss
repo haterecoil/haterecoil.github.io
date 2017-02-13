@@ -1,0 +1,129 @@
+ul {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+/* CUSTOM */
+body {
+  color: #666;
+  background-color: white;
+  // font-size: 24px;
+}
+p {
+  text-indent: 1em;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+a {
+    color: #777;
+}
+a:visited {
+    color: inherit;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.about_me {
+  text-align: center;
+  height: 80vh;
+  padding-top: 20vh;
+  min-height: 400px;
+  margin-bottom: -11vh;
+}
+.about_me--title {
+  font-size: 3em;
+  line-height: 2em;
+  font-weight: 400;
+  font-family: Roboto Slab;
+  color: #000;
+  margin: 0;
+}
+.about_me--text {
+  margin: 0;
+  font-size: 1em;
+  font-family: Roboto Slab;
+}
+.about_me--links {
+
+}
+.about_me--links--item {
+    margin: 0 3px;
+    display: inline-block;
+}
+.about_me--link {
+  font-size: 0.8em;
+}
+
+.separating-title {
+  margin-bottom: 100px;
+}
+
+
+.project {
+  margin-bottom: 200px;
+}
+
+.project:hover .project--name {
+  color: #666;
+}
+.project--name {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border 0.2s ease, color 0.2s ease;
+  -o-transition: border 0.2s ease, color 0.2s ease;
+  transition: border 0.2s ease, color 0.2s ease;
+  color: #bbb;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.project--metadatas {
+  margin-bottom: 20px;
+}
+
+.project-metadata {
+  font-size: 1rem;
+  order: 3;
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.metadata {
+  line-height: 1.5em;
+  color: #666;
+  display: inline-block;
+}
+.metadata-content {
+  display: inline-block;
+  color: #666;
+  font-weight: 100;
+  font-size: 1.1em;
+  font-family: sans-serif;
+}
+.metadata-content:after {
+  content: " – ";
+}
+.metadata-content:last-child:after {
+  content: "" !important;
+}
+
+.project-metadata .metadata-title {
+  display: inline-block;
+  font-weight: 100;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.project-excerpt {
+  width: 60%;
+}
+

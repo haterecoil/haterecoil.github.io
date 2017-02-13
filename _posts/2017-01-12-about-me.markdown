@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "About me"
+date:   2016-03-12 15:22:18 +0100
+categories:
+  - myself
+tags: about me
+technos :
+  - PHP
+  - Cordova
+  - GoogleMapsAPI
+  - Foundation framework
+project-type:
+  - side project
+  - product design & dev
+links:
+  - <a href="http://serein.lorem.ovh">website</a>
+---
+
+\>morgan
+étudiant @HETIC
+bienvenue dans mon laboratoire
+github linkedin mail
+

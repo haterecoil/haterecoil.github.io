@@ -1,0 +1,164 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  <section class="about_me">
+    <!-- <p><a href="/en.php">english version</a></p> -->
+    <h1 class="about_me--title">&gt;morgan</h1>
+    <p class="about_me--text">student @<a href="http://hetic.net">HETIC</a></p>
+    <p class="about_me--text">here is a quick index of my projects</p>
+    <ul class="about_me--links">
+      <li class="about_me--links--item"><a class="about_me--link" target="_blank" href="https://github.com/haterecoil">github</a></li>
+      <li class="about_me--links--item"><a class="about_me--link" target="_blank" href="https://fr.linkedin.com/in/morgan-caron-12b558100">linkedin</a></li>
+      <!-- <li class="about_me--links--item"><a class="about_me--link" target="_blank" href="mailto:morgan.caron@hetic.net">mail </a></li> -->
+    </ul>
+  </section>
+
+  <ul class="projects">
+      <li class="project">
+        <h2 class="project--name">
+          About me
+        </h2>
+        <ul class="project--metadatas">
+          <li class="project-metadata">
+            <ul class="metadata">
+                <li class="metadata-content"> web sw developer</li>
+                <li class="metadata-content"> thrives to use IT for public good</li>
+            </ul>
+          </li>
+          <li class="project-metadata">
+            <h3 class="metadata-title">Skills: </h3>
+            <ul class="metadata">
+                <li class="metadata-content">curiosity</li>
+                <li class="metadata-content">versatility</li>
+                <li class="metadata-content">digital product engineering</li>
+            </ul>
+          </li>
+          <li class="project-metadata">
+            <h3 class="metadata-title">Technos: </h3>
+            <ul class="metadata">
+                <li class="metadata-content">front and back web dev</li>
+                <li class="metadata-content">data wrangling</li>
+            </ul>
+          </li>
+        </ul>
+        <p class="project-excerpt">
+          Currently looking for a 6 month internship from july 2017 as Product Manager assistant or web sw developer. Ideally, it would be in R&D or prototyping on bleeding edge technologies (IoT, Blockchain, AR, VR). And I'm ready to go anywhere in the world!
+        </p>
+        <p class="project-excerpt">
+          Sorry about frenglish in this website, I currently am translating everything to english.
+        </p>
+      </li>
+  </ul>
+
+
+  <h2 class="separating-title">My favorite projects</h2>
+
+{% assign selected_posts = site.posts | where_exp: "post", "post.categories contains 'selection'" %}
+
+  <ul class="projects">
+    {% for post in selected_posts %}
+      <li class="project">
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+        <h2 class="project--name">
+          <!-- <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> -->
+          {{ post.title | escape }}
+        </h2>
+        <ul class="project--metadatas">
+          {% if post.project-type.size > 0 %}
+          <li class="project-metadata">
+            <h3 class="metadata-title">Type: </h3>
+            <ul class="metadata">
+              {% for ptype in post.project-type %}
+                <li class="metadata-content"> {{ptype}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          {% if post.technos.size > 0 %}
+          <li class="project-metadata">
+            <h3 class="metadata-title">Technos: </h3>
+            <ul class="metadata">
+              {% for techno in post.technos %}
+                <li class="metadata-content"> {{techno}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          {% if post.links.size > 0 %}
+          <li class="project-metadata">
+            <h3 class="metadata-title">Links: </h3>
+            <ul class="metadata">
+              {% for link in post.links %}
+                <li class="metadata-content"> {{link}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+        </ul>
+        <p class="project-excerpt">{{post.excerpt |strip_html}}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="separating-title">Other projects</h2>
+
+{% assign selected_posts = site.posts | where_exp: "post", "post.categories contains 'projet'" %}
+
+  <ul class="projects">
+    {% for post in selected_posts %}
+      {% if.post.categories contains "selection" %}
+        {% continue %}
+      {% endif %}
+      <li class="project">
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+        <h2 class="project--name">
+          <!-- <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> -->
+          {{ post.title | escape }}
+        </h2>
+        <ul class="project--metadatas">
+          {% if post.project-type.size > 0 %}
+          <li class="project-metadata">
+            <h3 class="metadata-title">Type: </h3>
+            <ul class="metadata">
+              {% for ptype in post.project-type %}
+                <li class="metadata-content"> {{ptype}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          {% if post.technos.size > 0 %}
+          <li class="project-metadata">
+            <h3 class="metadata-title">Technos: </h3>
+            <ul class="metadata">
+              {% for techno in post.technos %}
+                <li class="metadata-content"> {{techno}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          {% if post.links.size > 0 %}
+          <li class="project-metadata">
+            <h3 class="metadata-title">Links: </h3>
+            <ul class="metadata">
+              {% for link in post.links %}
+                <li class="metadata-content"> {{link}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+        </ul>
+        <p class="project-excerpt">{{post.excerpt |strip_html}}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+</div>
