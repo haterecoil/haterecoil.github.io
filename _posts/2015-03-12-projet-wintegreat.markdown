@@ -16,6 +16,7 @@ project-type:
 
 links: <a href="http://greatbab.org/">website</a>
 ---
+GreatBab is a web app matching refugees to potential schools in France.
 
 GreatBab est une application web complexe pour trouver des formations à des réfugiés selon leur profil scolaire.
 

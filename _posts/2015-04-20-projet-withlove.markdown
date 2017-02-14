@@ -14,6 +14,8 @@ project-type:
   - business & dev
 links:
 ---
+WithLove is a bootstrapped business idea: send parisian postal cards with a few gifts to anyone in the world for less than 10€.
+
 WithLove est un bootstrapped business : vendre des cartes postales parisiennes manuscrites à des gens du monde entier.
 
 Nous avions une idée vraiment fun ! Envoyer des cartes postales, depuis Paris, vers le monde entier !

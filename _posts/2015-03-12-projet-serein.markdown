@@ -17,7 +17,7 @@ project-type:
 links:
   - <a href="http://serein.lorem.ovh">website</a>
 ---
-Serein permet de localiser les échangeurs/distributeurs de seringues en France. Via un site web, mais aussi par SMS.
+Serein enables locating Needle Exchange Machines in France. Through both a web and a SMS interface.
 
 Le service par SMS est rendu possible grâce à une application Cordova qui transforme un téléphone lamba en "centrale SMS". Si ce téléphone reçoit "serein {une adresse}", il transmet l'adresse à l'API Serein et répond celle du distributeur le plus proche.
 

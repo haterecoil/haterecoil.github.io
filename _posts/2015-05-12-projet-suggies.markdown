@@ -16,4 +16,4 @@ technos:
 links:
   - <a href="https://github.com/Evan-Peuvergne/Suggies">github</a>
 ---
-Suggies est un site de conseil de séries réalisé durant une semaine intensive (c'est à dire en 3 jours et demi).
+Suggies is a tv show recommandation website, thought up and developped in 3 days with a team of 4.

@@ -14,6 +14,8 @@ technos:
 links:
   - <a href="https://github.com/haterecoil/zerowing">github </a>
 ---
+A pentesting API made with Symfony2 to test your own website against classic vulnerabilities.
+
 Une API de pentesting en Symfony2 pour tester son site contre différentes vunérabilités.
 
 Teste de l'injection SQL basique, de l'URL fuzzing, du bruteforce de mots de passe par défaut et cherche les failles XSS.
