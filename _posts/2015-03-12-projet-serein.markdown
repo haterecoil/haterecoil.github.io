@@ -16,8 +16,9 @@ project-type:
   - product design & dev
 links:
   - <a href="http://serein.lorem.ovh">website</a>
+  - <a href="http://umap.openstreetmap.fr/fr/map/serein-une-seringue_127083#6/47.272/4.834">openstreetmap</a>
 ---
-Serein enables locating Needle Exchange Machines in France. Through both a web and a SMS interface.
+Serein enables locating Needle Exchange Machines in France. Through both a web and a SMS interface. Sorry but only the OpenStreetMap downgraded version is available.
 
 Le service par SMS est rendu possible grâce à une application Cordova qui transforme un téléphone lamba en "centrale SMS". Si ce téléphone reçoit "serein {une adresse}", il transmet l'adresse à l'API Serein et répond celle du distributeur le plus proche.
 

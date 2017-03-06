@@ -26,6 +26,14 @@ a:visited {
     color: inherit;
 }
 
+hr {
+  margin-bottom: 50px;
+}
+
+::selection {
+  background: #F0F0F0;
+}
+
 .hidden {
   display: none !important;
 }
@@ -38,17 +46,20 @@ a:visited {
   margin-bottom: -11vh;
 }
 .about_me--title {
-  font-size: 3em;
-  line-height: 2em;
+  font-size: 6rem;
+  line-height: 8rem;
   font-weight: 400;
-  font-family: Roboto Slab;
+  font-family: 'Times', Roboto Slab;
   color: #000;
   margin: 0;
 }
 .about_me--text {
   margin: 0;
   font-size: 1em;
-  font-family: Roboto Slab;
+  line-height: 1.5;
+  margin: 3rem 0;
+  font-family: sans-serif, Roboto Slab;
+  margin-left: -22px;
 }
 .about_me--links {
 
@@ -64,6 +75,56 @@ a:visited {
 .separating-title {
   margin-bottom: 100px;
 }
+
+.vertical_whitespace {
+  height: 20vh;
+}
+
+.block {
+  text-align: center;
+}
+.block-text {
+  width: 38rem;
+  max-width: 100%;
+  text-align: left;
+  margin: auto;
+}
+.block:hover .block-title {
+  color: #666;
+}
+.block-title {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border 0.2s ease, color 0.2s ease;
+  -o-transition: border 0.2s ease, color 0.2s ease;
+  transition: border 0.2s ease, color 0.2s ease;
+  color: #bbb;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
+}
+.block-subtitle {
+  font-weight: 200;
+  margin-top: 40px;
+}
+
+// yes it's weird but i'm lazy today
+img + .block-text + img {
+    margin-top: 50px;
+}
+
+footer {
+  margin-top: 20vh;
+}
+
+
+
+
+
+
+
+
 
 
 .project {
