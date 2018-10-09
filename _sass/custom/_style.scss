@@ -20,10 +20,10 @@ p {
   font-weight: 100;
 }
 a {
-    color: #777;
+    color: #666;
 }
 a:visited {
-    color: inherit;
+    color: inherit!important;
 }
 
 hr {
@@ -40,7 +40,7 @@ hr {
 
 .about_me {
   text-align: center;
-  height: 80vh;
+  // height: 80vh;
   padding-top: 10vh;
   min-height: 400px;
   margin-bottom: -11vh;
@@ -54,12 +54,13 @@ hr {
   margin: 0;
 }
 .about_me--text {
-  margin: 0;
   font-size: 1em;
   line-height: 1.5;
-  margin: 3rem 0;
+  margin: 0rem 0;
   font-family: sans-serif, Roboto Slab;
-  margin-left: -22px;
+  margin-left: -15px;
+  margin-top: -1rem;
+  letter-spacing: 8.8px;
 }
 .about_me--links {
 
@@ -90,7 +91,7 @@ hr {
   margin: 10px auto;
 }
 .block:hover .block--title {
-  color: #666;
+  color: #777;
 }
 .block--title {
   text-decoration: none;
@@ -112,6 +113,18 @@ hr {
 .block--image {
   width: 38rem;
   margin: 20px 0;
+}
+
+
+.reference--title {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+.reference--body {
+  font-size: 1rem;
+}
+.reference--body a {
+    text-decoration: underline;
 }
 
 // yes it's weird but i'm lazy today
