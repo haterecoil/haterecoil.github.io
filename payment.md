@@ -14,7 +14,7 @@ permalink: /payment/
     
 <br>
 <div class="payment_container" style="">
-  <button id="checkout-button" role="link">Accéder à la page sécurisée STRIPE</button>
+  <button id="checkout-button" role="link" class="payment_button">Accéder à la page sécurisée STRIPE</button>
 </div>
   
 <script>
