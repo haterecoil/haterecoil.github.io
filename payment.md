@@ -7,10 +7,16 @@ permalink: /payment/
 <!-- Load Stripe.js on your website. -->
 <script src="https://js.stripe.com/v3"></script>
 
-<!-- Create a button that your customers click to complete their purchase. -->
-<button id="checkout-button" role="link">Pay</button>
-<div id="error-message"></div>
 
+<h2> Paiement de prestation simple </h2>
+<p>Vous souhaitez un dépannage rapide et efficace ? Vous pouvez directement payer en ligne !</p>
+<p> Ce forfait inclut un dépannage de maximum 2 heures. </p> 
+    
+<br>
+<div class="payment_container" style="">
+  <button id="checkout-button" role="link">Accéder à la page sécurisée STRIPE</button>
+</div>
+  
 <script>
   var stripe = Stripe('pk_live_BcHXkLMsDFQw4KmDh91WCoxo001yGFvJRI', {
     betas: ['checkout_beta_4']
@@ -39,3 +45,4 @@ permalink: /payment/
     });
   });
 </script>
+

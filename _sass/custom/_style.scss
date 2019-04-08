@@ -1,23 +1,22 @@
 ul {
-  margin: 0;
+    margin: 0;
 }
 li {
-  list-style: none;
+    list-style: none;
 }
-
 /* CUSTOM */
+
 body {
-  color: #666;
-  background-color: white;
-  // font-size: 24px;
+    color: #666;
+    background-color: white; // font-size: 24px;
 }
 p {
-  text-indent: 1em;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 5px;
-  font-family: sans-serif;
-  font-weight: 100;
+    text-indent: 1em;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: 100;
 }
 a {
     color: #666;
@@ -25,120 +24,126 @@ a {
 a:visited {
     color: inherit!important;
 }
-
 hr {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
-
 ::selection {
-  background: #F0F0F0;
+    background: #F0F0F0;
 }
-
 .hidden {
-  display: none !important;
+    display: none !important;
 }
-
 .about_me {
-  text-align: center;
-  // height: 80vh;
-  padding-top: 10vh;
-  min-height: 400px;
-  margin-bottom: -11vh;
+    text-align: center; // height: 80vh;
+    padding-top: 10vh;
+    min-height: 400px;
+    margin-bottom: -11vh;
 }
 .about_me--title {
-  font-size: 6rem;
-  line-height: 8rem;
-  font-weight: 400;
-  font-family: 'Times', Roboto Slab;
-  color: #000;
-  margin: 0;
+    font-size: 6rem;
+    line-height: 8rem;
+    font-weight: 400;
+    font-family: 'Times', Roboto Slab;
+    color: #000;
+    margin: 0;
 }
 .about_me--text {
-  font-size: 1em;
-  line-height: 1.5;
-  margin: 0rem 0;
-  font-family: sans-serif, Roboto Slab;
-  margin-left: -15px;
-  margin-top: -1rem;
-  letter-spacing: 8.8px;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0rem 0;
+    font-family: sans-serif, Roboto Slab;
+    margin-left: -15px;
+    margin-top: -1rem;
+    letter-spacing: 8.8px;
 }
-.about_me--links {
-
-}
+.about_me--links {}
 .about_me--links--item {
     margin: 0 3px;
     display: inline-block;
 }
 .about_me--link {
-  font-size: 0.8em;
+    font-size: 0.8em;
 }
-
 .separating-title {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
-
 .vertical_whitespace {
-  height: 20vh;
+    height: 20vh;
 }
-
 .block {
-  text-align: center;
+    text-align: center;
 }
 .block--text {
-  width: 38rem;
-  max-width: 100%;
-  text-align: left;
-  margin: 10px auto;
+    width: 38rem;
+    max-width: 100%;
+    text-align: left;
+    margin: 10px auto;
 }
 .block:hover .block--title {
-  color: #777;
+    color: #777;
 }
 .block--title {
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  -webkit-transition: border 0.2s ease, color 0.2s ease;
-  -o-transition: border 0.2s ease, color 0.2s ease;
-  transition: border 0.2s ease, color 0.2s ease;
-  color: #bbb;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 0;
-  font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border 0.2s ease, color 0.2s ease;
+    -o-transition: border 0.2s ease, color 0.2s ease;
+    transition: border 0.2s ease, color 0.2s ease;
+    color: #bbb;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-family: 'Roboto Slab', serif;
 }
 .block--subtitle {
-  font-weight: 200;
-  margin-top: 40px;
+    font-weight: 200;
+    margin-top: 40px;
 }
-
 .block--image {
-  width: 38rem;
-  margin: 20px 0;
+    width: 38rem;
+    margin: 20px 0;
 }
-
-
 .reference--title {
-  margin-top: 2rem;
-  font-size: 1.3rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
 }
 .reference--body {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 .reference--body a {
     text-decoration: underline;
 }
-
 // yes it's weird but i'm lazy today
-img + .block--text + img {
+img+.block--text+img {
     margin-top: 50px;
 }
-
 footer {
-  margin-top: 20vh;
+    margin-top: 20vh;
 }
-
 @media screen and (max-height: 500px) {
-  .about_me { padding-top: 10vh;}
+    .about_me {
+        padding-top: 10vh;
+    }
 }
 @media screen and (max-width: 400px) {
-  p { font-weight: 400; }
+    p {
+        font-weight: 400;
+    }
+}
+.payment_container {
+    width: 100%;
+    text-align: center;
+}
+.payment_button {
+    padding: 20px;
+    background-color: #f8fdff;
+    color: #6eb36e;
+    border-color: #6eb36e;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 0.6em;
+}
+.payment_button:hover {
+    background-color: #6eb36e!important;
+    color: #f8fdff!important;
+    cursor: pointer;
 }
