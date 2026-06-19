@@ -2,6 +2,86 @@
 layout: default
 ---
 
+<style>
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.site-header__links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header__link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.site-header__link:hover {
+  color: #0066cc;
+}
+
+.home {
+  margin-top: 80px;
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    padding: 0.75rem 1rem;
+  }
+
+  .site-header__name {
+    font-size: 1rem;
+  }
+
+  .site-header__links {
+    gap: 1rem;
+  }
+
+  .site-header__link {
+    font-size: 0.9rem;
+  }
+
+  .home {
+    margin-top: 60px;
+  }
+}
+</style>
+
+<header class="site-header">
+  <div class="site-header__name">Morgan Caron</div>
+  <nav>
+    <ul class="site-header__links">
+      <li><a href="https://github.com/haterecoil" target="_blank" class="site-header__link">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/morgan-thirdwave" target="_blank" class="site-header__link">LinkedIn</a></li>
+      <li><a href="https://scholar.google.com/citations?user=pbsxJoAAAAAJ" target="_blank" class="site-header__link">Scholar</a></li>
+    </ul>
+  </nav>
+</header>
+
 <div class="home">
 
   {{ content }}
@@ -9,7 +89,7 @@ layout: default
   <section class="about_me">
 
           <h1 class="about_me--title">morgan</h1>
-          <p class="about_me--text">clever software</p>
+          <p class="about_me--text">builder</p>
 
           <!-- <ul class="about_me--links">
             <li class="about_me--links--item"><a class="about_me--link" target="_blank" href="https://github.com/haterecoil">github</a></li>
@@ -19,22 +99,19 @@ layout: default
             <ul class="references">
 
               <li class="reference--title">
-                Solutions Architect & AI Lead
+                Co-founder
               </li>
               <li class="reference--body">
                 <a href="https://quanticfactory.io" target="_blank">
-                  The Quantic Factory – AI-powered e-commerce analytics
+                  The Quantic Factory – AI-powered SaaS for e-commerce
                 </a>
               </li>
               <li class="reference--body">
                   ↑ 6 years | 150+ clients | Go, Rust, Multi-LLM, MCP, GCP
               </li>
-              <li class="reference--body">
-                  Shopify + Klaviyo expert | Agentforce trained
-              </li>
 
               <li class="reference--title">
-                Computer Vision & ML
+                Solutions Engineering
               </li>
               <li class="reference--body">
                 <a href="https://www.oneex.com" target="_blank">
@@ -46,7 +123,19 @@ layout: default
               </li>
 
               <li class="reference--title">
-                Healthcare AI & Clinical Systems
+                (sold)
+              </li>
+              <li class="reference--body">
+                <a disabled>
+                  Konektor - Universal e-commerce to ERP connectors
+                </a>
+              </li>
+              <li class="reference--body">
+                  Thanks <a href="https://www.neo-easy.eu" target="_blank">Gaï</a> for the opportunity
+              </li>
+
+              <li class="reference--title">
+                Co-founder
               </li>
               <li class="reference--body">
                 <a href="https://get-phoenix.com" target="_blank">
@@ -58,7 +147,7 @@ layout: default
               </li>
 
               <li class="reference--title">
-                Data Engineering
+                Data Engineering Consultancies
               </li>
               <li class="reference--body">
                 <a href="https://www.deepki.com" target="_blank">

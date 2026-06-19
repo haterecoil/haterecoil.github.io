@@ -1,0 +1,110 @@
+# Morgan Caron
+
+> Solutions Architect & Technical Leader | AI, Data & High-Security Systems
+> Greater Paris Metropolitan Region, France
+
+## Professional Summary
+
+Morgan Caron is a Solutions Architect, Technical Leader, and Entrepreneur with 10+ years of experience designing, building, and deploying complex software systems. Polyglot engineer proficient in Go, Python, TypeScript, Ruby, and C++, bridging state-of-the-art technology with strategic business value.
+
+**Key Strengths:**
+- Entrepreneurial Leadership: Co-founded B2B SaaS platforms and e-health systems
+- Enterprise Integration & High Security: SecNumCloud certified environments, Fortune 500 clients
+- AI Applied Engineering: Production agentic AI systems with multi-LLM orchestration and Model Context Protocol (MCP)
+- Technical Education: Former instructor in software engineering and internet architecture
+
+## Tech Stack
+
+**Languages:** Go (Expert), TypeScript/JavaScript (Expert), Python (Very Good), Ruby (Very Good), C++, PHP, Java, R
+
+**Cloud & Infrastructure:** GCP (5 years): GCE, GKE, GCS, Cloud Run, App Engine, BigQuery, Pub/Sub | Multi-cloud deployments (Scaleway, Hetzner)
+
+**AI & ML:** Multi-LLM Orchestration, Model Context Protocol (MCP), Agentforce (Salesforce certified), TensorFlow, Computer Vision (OpenCV, DINOv3, CNNs), ONNX, OpenVINO, RAG Architectures
+
+**Data Engineering:** Apache Airflow, ClickHouse, BigQuery, PostgreSQL, MySQL, Redis, Firebase, Pub/Sub
+
+**Frameworks:** Node.js, React, Next.js, Django, Rails, Symfony, Ionic
+
+**DevOps:** Docker, Ansible, Kubernetes, HashiCorp Nomad, Edge device provisioning
+
+**Security & Compliance:** GDPR, HDS (Health Data Hosting), SecNumCloud, KYC/AML architectures
+
+## Notable Projects
+
+### The Quantic Factory (May 2020 - Present)
+AI-powered e-commerce analytics SaaS platform. Founding team member, now advisor.
+
+**Achievements:**
+- Guided 150+ retail clients from discovery to deployment (90%+ retention)
+- Built production agentic AI system with multi-LLM orchestration and MCP
+- Scaled engineering team from 1 to 20 people across Paris and Tunis
+- Deep expertise in Shopify and Klaviyo ecosystems
+- Converted 20+ skeptical agencies into active resellers
+
+**Tech:** Go, Rust, Next.js, React, ClickHouse, MySQL, Firebase, GCP, Apache Airflow
+
+### ONEEX (July 2025 - February 2026)
+Computer vision & ML for document authentication in SecNumCloud certified environment.
+
+**Achievements:**
+- Led product adaptation for Fortune 500 client
+- Coordinated 8 enterprise stakeholders (Legal, IT Security, Operations)
+- 12 deployments across 2 countries
+- Managed team of 5 engineers
+
+**Tech:** Raspberry Pi, ARM, Go, Python, Docker, Ansible, DINOv3, CNNs, multi-spectral scanning
+
+### Phoenix Addiction Solution (April 2016 - September 2022)
+AI-powered clinical decision support for addiction treatment in psychiatric care.
+
+**Achievements:**
+- Published peer-reviewed research (PMID: 28683885)
+- Navigated CNIL, GDPR, HDS compliance and clinical ethics committees
+- Drove adoption across 3 hospital networks
+- Built explainable ML models for personalized interventions
+
+**Tech:** Python, Django, Reinforcement Learning, React
+
+## Experience Highlights
+
+**E-commerce & Retail:**
+- Deep Shopify/Shopify Plus and Klaviyo expertise
+- Integrated Prestashop, WooCommerce, BigCommerce
+- Worked with Splio, Brevo, SAP Emarsys, Yotpo, Salesforce Marketing Cloud
+
+**Enterprise & Financial:**
+- Société Générale: Bank-level web applications, secure document management
+- Fortune 500 integrations with compliance requirements
+
+**Consulting:**
+- Deepki: Energy datasets ETL
+- Shippeo: Talend environment setup
+- Manucurist, Max Daumin: E-commerce optimization
+
+**Education:**
+- ESIN Instructor (2020-2023): Software engineering and internet architecture
+
+## Education
+
+- Master's Degree in Information Technologies | HETIC (Paris)
+- DUT in Urban Planning and Tourism Development | Université Montesquieu-Bordeaux IV
+
+## Languages
+
+French (Native), English (Fluent C1+), Spanish, Persian
+
+## Professional Philosophy
+
+Passionate about complex, high-impact problems in healthcare, industry, and defense. Pragmatic and relentless, with a focus on delivering concrete value rapidly while maintaining quality. Collaborative approach at the core.
+
+## Links
+
+- LinkedIn: https://www.linkedin.com/in/morgan-thirdwave
+- GitHub: https://github.com/haterecoil
+- Google Scholar: https://scholar.google.com/citations?user=pbsxJoAAAAAJ
+- Website: https://haterecoil.github.io
+
+---
+
+*Last updated: June 2026*
+*This file provides context for LLMs. For detailed STAR stories and specific achievements, see full resume.*
