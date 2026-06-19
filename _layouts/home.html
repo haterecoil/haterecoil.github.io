@@ -17,72 +17,86 @@ layout: default
             <li class="about_me--links--item" style="display:none;"><a class="about_me--link" target="_blank" href="https://drive.google.com/open?id=0B2uqVJ0a41YRMzZoSjJ3SEZoWnM">resume</a></li> -->
 
             <ul class="references">
-              
+
               <li class="reference--title">
-                technical lead
+                Solutions Architect & AI Lead
               </li>
               <li class="reference--body">
-                <a href="https://get-phoenix.com">
-                  Phoenix – Addiction Care 2.0 
-                </a> <a href="http://www.ch-sainte-anne.fr/">  w/ hospital CHSA</a>
+                <a href="https://quanticfactory.io" target="_blank">
+                  The Quantic Factory – AI-powered e-commerce analytics
+                </a>
               </li>
               <li class="reference--body">
-                  ↑ Django, ionic, and machine learning
+                  ↑ 6 years | 150+ clients | Go, Rust, Multi-LLM, MCP, GCP
+              </li>
+              <li class="reference--body">
+                  Shopify + Klaviyo expert | Agentforce trained
+              </li>
+
+              <li class="reference--title">
+                Computer Vision & ML
+              </li>
+              <li class="reference--body">
+                <a href="https://www.oneex.com" target="_blank">
+                  ONEEX – Document authentication (SecNumCloud)
+                </a>
+              </li>
+              <li class="reference--body">
+                  ↑ Fortune 500 client | Edge ML | Raspberry Pi
+              </li>
+
+              <li class="reference--title">
+                Healthcare AI & Clinical Systems
+              </li>
+              <li class="reference--body">
+                <a href="https://get-phoenix.com" target="_blank">
+                  Phoenix – Addiction Care 2.0
+                </a> <a href="https://www.ghu-paris.fr/fr" target="_blank">w/ hospital GHU Paris</a>
+              </li>
+              <li class="reference--body">
+                  ↑ 6+ years | Published research | CNIL/GDPR/HDS
               </li>
 
               <li class="reference--title">
                 Data Engineering
               </li>
               <li class="reference--body">
-                <a href="https://deepki.com/">
+                <a href="https://www.deepki.com" target="_blank">
                   Deepki – Energetic datasets ETL
                 </a>
               </li>
               <li class="reference--body">
-                  <a href="https://www.shippeo.com/">
+                  <a href="https://www.shippeo.com/" target="_blank">
                   Shippeo – Talend environment setup
                 </a>
               </li>
 
               <li class="reference--title">
-                backend development
+                Backend Development
               </li>
               <li class="reference--body">
-                <a href="https://societegenerale.fr/">
-                  Société Générale - banklevel web app - java
+                <a href="https://www.societegenerale.com/" target="_blank">
+                  Société Générale – Bank-level web app
                 </a>
               </li>
               <li class="reference--body">
-                  + Symfony, Django & RoR projects
+                  + Symfony, Django & Rails projects
               </li>
 
               <li class="reference--title">
-                e-commerce perf & sec
+                E-commerce
               </li>
               <li class="reference--body">
-                <a href="https://maxdaumin.com/">
-                  Max Daumin - high-end spices
+                <a href="https://maxdaumin.com/" target="_blank">
+                  Max Daumin – High-end spices
                 </a>
               </li>
               <li class="reference--body">
-                  <a href="https://manucurist.com/">
-                  Manucurist - three cosmetics centered websites 
+                  <a href="https://manucurist.com/" target="_blank">
+                  Manucurist – Cosmetics websites
                 </a>
               </li>
 
-              <li class="reference--title">
-                Mobile Native & Cross-Device
-              </li>
-              <li class="reference--body">
-                <a href="https://rugbycentric.com/">
-                  RugbyCentric - Rugby team management and self-help
-                </a>
-              </li>
-              <li class="reference--body">
-                  <a href="https://francais-en-voyage.fr/">
-                  Français en Voyage - Restaurant owners get + customers, customers get + deals
-                </a>
-              </li>
 
 
             </ul>
@@ -90,3 +104,30 @@ layout: default
           </ul>
         </section>
 </div>
+
+<script>
+(function() {
+  try {
+    const analyticsEndpoint = 'https://royal-wave-860f.morgan-032.workers.dev/analytics';
+
+    const payload = {
+      page: window.location.href,
+      referrer: document.referrer || 'direct',
+      params: Object.fromEntries(new URLSearchParams(window.location.search)),
+      userAgent: navigator.userAgent,
+      timestamp: new Date().toISOString(),
+      screen: {
+        width: window.screen.width,
+        height: window.screen.height
+      }
+    };
+
+    fetch(analyticsEndpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+      keepalive: true
+    }).catch(function() {});
+  } catch(e) {}
+})();
+</script>
